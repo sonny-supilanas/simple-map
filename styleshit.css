@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    overscroll-behavior-y: none;
+}
+
+#map {
+    height: 100vh;
+}
+
+.red-group {
+    filter: hue-rotate(150deg);
+}
+
+.blue-group {
+    filter: hue-rotate(0deg);
+}
+
+.admin-group {
+    filter: hue-rotate(250deg);
+}
+
+.button {
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+
+.form {
+    background-color: rgb(102, 169, 232);
+    text-align: center;
+    opacity: .8;
+}
+
+input {
+    font-family: Courier, monospace;
+    height: 25px;
+    background-color: beige;
+    margin: 2px 2px 2px 2px;
+}
+
+.delete,
+.list {
+    width: 141px;
+    text-align: left;
+    background-color: rgb(102, 169, 232);
+    font-size: medium;
+    cursor: pointer;
+    opacity: .8;
+    font-family: Courier, monospace;
+    font-weight: bold;
+    /* margin: 2px 2px 2px 2px; */
+}
+
+.fullscreen-button {
+    height: 30px;
+    width: 30px;
+}
+
+.cancel {
+    float: right;
+}
+
+.emphasis {
+    text-decoration: underline;
+    text-shadow: 1em;
+    font-style: italic;
+}
+
+.confirm-delete {
+    padding-top: 5px;
+    text-align: center;
+}
